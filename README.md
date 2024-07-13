@@ -19,7 +19,9 @@ I think I'll make 2 separate html pages and then move the data via the url but w
 WORK
 =======================
 UPDATE!
+
 ![image](https://github.com/user-attachments/assets/ae05b459-a396-4440-af98-8bbc615958cc)
+
 so I started by asking ChatGPT to make me some sort of base I could start working with, and when it horribly failed I started working.
 
 I started by making the cycle part, which works perfectly except for the fact that it doesn't do anything at the moment,
@@ -35,7 +37,9 @@ It might come at a cost of not being able to animate the movement but, I'd rathe
 UPDATE #2!!
 okay so I realized I know nothing about soccer. no matter how much I try to research it I don't really get what they want and how to do it so instead I'm gonna do this:
 I'm gonna wait till my little brother wakes up (because he asked me to make this website) and ask him to position players on this grid:
+
 ![image](https://github.com/user-attachments/assets/1b89cb4a-05cd-45d3-81e2-c8815d34a4e9)
+
 and tell me which layouts he positioned or if he needs a bigger grid or something - that way I know I'm not getting anything wrong, and I'm only adding the useful layouts (I don't know how soccer works)
 
 right now I'm gonna test if the animations work and then maybe begin construction of the other page while I wait for him to wake up
