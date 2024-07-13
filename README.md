@@ -30,3 +30,13 @@ because not only do I have to pretty much GUESS what the player's values are, it
 
 So instead, I split the field into a grid, and right now I'm trying to figure out what the size of the grid needs to be, so I could position the players in a square everytime, making it more consistent in the process.
 It might come at a cost of not being able to animate the movement but, I'd rather do it this way than have to work with obscure pixel values.
+
+
+UPDATE #2!!
+okay so I realized I know nothing about soccer. no matter how much I try to research it I don't really get what they want and how to do it so instead I'm gonna do this:
+I'm gonna wait till my little brother wakes up (because he asked me to make this website) and ask him to position players on this grid:
+![image](https://github.com/user-attachments/assets/1b89cb4a-05cd-45d3-81e2-c8815d34a4e9)
+and tell me which layouts he positioned or if he needs a bigger grid or something - that way I know I'm not getting anything wrong, and I'm only adding the useful layouts (I don't know how soccer works)
+
+right now I'm gonna test if the animations work and then maybe begin construction of the other page while I wait for him to wake up
+
