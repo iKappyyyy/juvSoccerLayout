@@ -14,6 +14,7 @@ after that I wanna be transitioned into a page that resembles this quick sketch:
 I couldn't fit in every example card but I wanna be able to click the card and have a list
 of players to choose from. whether that list is on the side or is kind of like a dropdown menu I am yet to decide
 
+I think I'll make 2 separate html pages and then move the data via the url but we'll have to see how things will go
 
 WORK
 =======================
