@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  justify-content: center;
+  background-color: rgb(97, 161, 0);
+}
+
+.layout-options {
+  margin-bottom: 20px;
+}
+
+.layout-options button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+/* .soccer-field {
+  position: relative;
+  width: 500px;
+  height: 700px;
+  border: 1px solid #000;
+  background: green;
+}
+
+.player {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+/* Default positions for 4-4-2 layout with goalkeeper at the bottom */
+/* #player1 { top: 600px; left: 235px; }
+#player2 { top: 500px; left: 100px; }
+#player3 { top: 500px; left: 370px; }
+#player4 { top: 400px; left: 170px; }
+#player5 { top: 400px; left: 300px; }
+#player6 { top: 300px; left: 50px; }
+#player7 { top: 300px; left: 420px; }
+#player8 { top: 200px; left: 170px; }
+#player9 { top: 200px; left: 300px; }
+#player10 { top: 100px; left: 100px; }
+#player11 { top: 100px; left: 370px; } */

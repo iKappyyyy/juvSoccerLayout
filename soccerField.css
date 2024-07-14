@@ -1,0 +1,20 @@
+.soccer-field {
+  width: 400px;
+  height: 700px;
+  background: green;
+  border: 1px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  gap: 1px;
+}
+
+.player {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+}

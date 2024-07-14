@@ -1,0 +1,31 @@
+.cycle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cycle-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cycle-option {
+  font-size: 1.5rem;
+  background: white;
+  padding: 10px 30px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 20px;
+  border: 1px solid gray;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.cycle-arrow {
+  font-size: 2rem;
+  cursor: pointer;
+}
