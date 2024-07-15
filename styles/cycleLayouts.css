@@ -12,6 +12,11 @@
   margin-bottom: 20px;
 }
 
+.cycle-header {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
 .cycle-option {
   font-size: 1.5rem;
   background: white;

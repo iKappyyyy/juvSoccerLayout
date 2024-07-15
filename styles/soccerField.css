@@ -1,0 +1,69 @@
+.soccer-field {
+  /* width: 90%; */
+  width: 400px;
+  height: 700px;
+  min-width: 230px;
+  max-width: 400px;
+  background: green;
+  border: 1px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  gap: 1px;
+}
+
+@media (min-width: 300.1px) and (max-width: 400px) {
+  .soccer-field {
+    width: 300px;
+    height: 525px;
+  }
+  
+  .player {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 250.1px) and (max-width: 300px) {
+  .soccer-field {
+    width: 200px;
+    height: 350px;
+  }
+
+  .player {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 250px) {
+  .soccer-field {
+    display: none;
+  }
+
+  .cycle-header {
+    font-size: 1.5rem;
+  }
+
+  .cycle-option {
+    width: 80px;
+    padding: 5px 8px;
+    margin-inline: 10px;
+  }
+}
+
+.player {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+}
+
+/* .playerr {
+  background: white;
+  width: 100%;
+  height: 100%;
+} */
