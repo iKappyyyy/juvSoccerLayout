@@ -44,3 +44,7 @@ and tell me which layouts he positioned or if he needs a bigger grid or somethin
 
 right now I'm gonna test if the animations work and then maybe begin construction of the other page while I wait for him to wake up
 
+DAY 2
+==================
+so the animations do NOT work, maybe I'll find a way to add them in the future but it's fine for now.
+I got my little brother to start working on the thing and for now I wanna try and add mobile support and design the DONE button
