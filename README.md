@@ -48,3 +48,6 @@ DAY 2
 ==================
 so the animations do NOT work, maybe I'll find a way to add them in the future but it's fine for now.
 I got my little brother to start working on the thing and for now I wanna try and add mobile support and design the DONE button
+
+website should work on mobile up until like ~180 px width (hopefully no one has a screen that thin)
+gonna work on done button now
