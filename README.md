@@ -51,3 +51,24 @@ I got my little brother to start working on the thing and for now I wanna try an
 
 website should work on mobile up until like ~180 px width (hopefully no one has a screen that thin)
 gonna work on done button now
+
+DAY 3
+=================
+so the reason I haven't been updating is because I realized I get really bored telling nothing and no one what I'm trying to do, so instead I might just write a quick check-up every day or so if I feel like it.
+
+at this point I pretty much finished the first page
+
+![image](https://github.com/user-attachments/assets/cdd86503-feab-4d8f-9c08-ef48a12bf064)
+
+it should have mobile integration but we'll see if it works after I release this, I added a bunch more shit but the main thing I gotta work on right now is the second page.
+A couple problems I thought about, I have no clue how I'm gonna be able to take a picture of JUST the middle part (which is where the photo is) I guess if I REALLLYYYY can't do it I'll just take a picture of the whole page and it should be fine but
+idk I hope I can make it work. plus on mobile it might look reallyyyy weird so we'll see about that too.
+
+for now I wanna check on how to do the image thing and I wanna figure out how to align this grid
+
+![image](https://github.com/user-attachments/assets/dba9755c-b67c-4f43-a8d2-714e81105c8e)
+
+I was HOPING for it to align but it seems like things are just ever so slightly wrong, and the dots and lines don't perfectly align with the cells of the grid. So we'll see about that TOO.
+I need the pictures to add and I need to design a thing to click in order to pick the player on each position but I think right now it's more important to figure out how to lay out the positions themselves.
+
+
