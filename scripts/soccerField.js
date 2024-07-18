@@ -5,9 +5,10 @@ export function updateField(currentLayout) {
 
   const layoutPosition = layoutPositions[currentLayout];
   players.forEach((player, index) => {
+  if (!index) return;
   const playerId = `player${index + 1}`;
 
   player.style.gridRow = layoutPosition[playerId].row;
   player.style.gridColumn = layoutPosition[playerId].column;
-});
+  });
 }

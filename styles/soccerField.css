@@ -74,6 +74,11 @@
   background: black;
 }
 
+#player1 {
+  grid-row: 14;
+  grid-column: 7;
+}
+
 /* .playerr {
   background: transparent;
   width: 100%;

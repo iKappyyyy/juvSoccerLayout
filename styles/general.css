@@ -1,3 +1,7 @@
+:root {
+  --row-length: 7
+}
+
 body {
   display: flex;
   justify-content: center;

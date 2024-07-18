@@ -1,6 +1,5 @@
 const layoutPositions = {
   '4-4-2': {
-    player1: { row: 14, column: 7 },
     player2: { row: 12, column: 2 },
     player3: { row: 12, column: 5 },
     player4: { row: 12, column: 9 },
@@ -13,7 +12,6 @@ const layoutPositions = {
     player11: { row: 6, column: 8 }
   },
   '4-2-3-1': {
-    player1: { row: 14, column: 7 },
     player2: { row: 12, column: 2 },
     player3: { row: 12, column: 5 },
     player4: { row: 12, column: 9 },
@@ -26,7 +24,6 @@ const layoutPositions = {
     player11: { row: 4, column: 7 }
   },
   '4-3-3': {
-    player1: { row: 14, column: 7 },
     player2: { row: 12, column: 2 },
     player3: { row: 12, column: 5 },
     player4: { row: 12, column: 9 },
@@ -39,7 +36,6 @@ const layoutPositions = {
     player11: { row: 6, column: 10 },
   },
   '4-3-2-1': {
-    player1: { row: 14, column: 7 },
     player2: { row: 12, column: 2 },
     player3: { row: 12, column: 5 },
     player4: { row: 12, column: 9 },
@@ -52,7 +48,6 @@ const layoutPositions = {
     player11: { row: 5, column: 7 },
   },
   '4-1-4-1': {
-    player1: { row: 14, column: 7 },
     player2: { row: 12, column: 2 },
     player3: { row: 12, column: 5 },
     player4: { row: 12, column: 9 },
@@ -65,7 +60,6 @@ const layoutPositions = {
     player11: { row: 5, column: 7 },
   },
   '3-5-2': {
-    player1: { row: 14, column: 7 },
     player2: { row: 12, column: 4 },
     player3: { row: 12, column: 7 },
     player4: { row: 12, column: 10 },

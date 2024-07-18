@@ -1,3 +1,4 @@
+
 .image-content {
   width: 600px;
   height: 800px;
@@ -6,11 +7,14 @@
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.5);
 
   display: grid;
-  grid-template-columns: repeat(13, 1fr);
-  grid-template-rows: repeat(15, 1fr);
-  place-items: center;
+  justify-items: center;
+  column-gap: 30px;
+  box-sizing: border-box;
+  padding: 200px 90px 60px 90px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(50, 1fr);
   position: relative;
-  gap: 1px;
+  overflow: hidden;
 }
 
 .background-image {
@@ -25,4 +29,105 @@
   width: 100%;
   height: 100%;
   border: 1px solid black;
+}
+
+.head {
+  width: 100%;
+  transition: opacity 0.15s ease;
+}
+
+.head:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.head:active {
+  opacity: 0.7;
+}
+
+.player {
+  max-width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#player1 {
+  grid-column: 3;
+  grid-row: 44 / calc(44 + var(--row-length));
+}
+
+/* #player2 {
+  grid-column: 2;
+  grid-row: 33 / calc(33 + var(--row-length));
+}
+
+#player3 {
+  grid-column: 4;
+  grid-row: 33 / calc(33 + var(--row-length));
+}
+
+#player4 {
+  grid-column: 1;
+  grid-row: 30 / calc(30 + var(--row-length));
+}
+
+#player5 {
+  grid-column: 5;
+  grid-row: 30 / calc(30 + var(--row-length));
+}
+
+#player6 {
+  grid-column: 2;
+  grid-row: 20 / calc(20 + var(--row-length));
+}
+
+#player7 {
+  grid-column: 4;
+  grid-row: 20 / calc(20 + var(--row-length));
+}
+
+#player8 {
+  grid-column: 1;
+  grid-row: 17 / calc(17 + var(--row-length));
+}
+
+#player9 {
+  grid-column: 5;
+  grid-row: 17 / calc(17 + var(--row-length));
+}
+
+#player10 {
+  grid-column: 2;
+  grid-row: 5 / calc(5 + var(--row-length));
+}
+
+#player11 {
+  grid-column: 4;
+  grid-row: 5 / calc(5 + var(--row-length));
+} */
+
+.player-name {
+  font-size: 20px;
+  text-wrap: nowrap;
+  text-align: center;
+  margin: 0;
+  color: black;
+  color: white;
+  /* font-size: 20px; */
+  /* text-shadow:
+      0.07em 0 black,
+      0 0.07em black,
+      -0.07em 0 black,
+      0 -0.07em black; */
+  font-weight: 700;
+  text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
 }
