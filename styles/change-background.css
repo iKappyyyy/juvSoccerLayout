@@ -19,8 +19,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
-  user-select: none;
 }
 
 .background-change-container:hover .background-choices {

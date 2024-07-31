@@ -7,11 +7,13 @@
   <link rel="stylesheet" href="styles/photo.css">
   <link rel="stylesheet" href="styles/screenshot-button.css">
   <link rel="stylesheet" href="styles/change-background.css">
+  <link rel="stylesheet" href="styles/change-player.css">
   <title>PHOTO PAGE</title>
 </head>
 <body>
+
   <div class="image-content">
-    <img class="background-image js-background-image" src="images/championsLeague.webp">
+    <img class="background-image js-background-image" src="images/backgrounds/championsLeague.webp">
     <div class="player js-player" id="player1">
       <img src="images/nochoice.webp" class="head">
       <p class="player-name">ניסים מזרחי אדרי בן זכאי</p>
@@ -61,31 +63,31 @@
       <button class="change-background js-change-background">שנה רקע</button>
       <div class="background-choices">
         <div class="background js-background" data-image="championsLeague">
-          <img src="images/championsLeague.webp" alt="champions league" class="background-display">
+          <img src="images/backgrounds/championsLeague.webp" alt="champions league" class="background-display">
           <p class="background-name">
             ליגת האלופות
           </p>
         </div>
         <div class="background js-background" data-image="serieA">
-          <img src="images/serieA.webp" alt="serie a" class="background-display">
+          <img src="images/backgrounds/serieA.webp" alt="serie a" class="background-display">
           <p class="background-name">
             סרייה א
           </p>
         </div>
         <div class="background js-background" data-image="superCup">
-          <img src="images/superCup.webp" alt="super cup" class="background-display">
+          <img src="images/backgrounds/superCup.webp" alt="super cup" class="background-display">
           <p class="background-name">
             סופר קופה
           </p>
         </div>
         <div class="background js-background" data-image="coppaItalia">
-          <img src="images/coppaItalia.webp" alt="coppa italia" class="background-display">
+          <img src="images/backgrounds/coppaItalia.webp" alt="coppa italia" class="background-display">
           <p class="background-name">
             הגביע האיטלקי
           </p>
         </div>
         <div class="background js-background" data-image="clubWorldCup">
-          <img src="images/clubWorldCup.webp" alt="club world cup" class="background-display">
+          <img src="images/backgrounds/clubWorldCup.webp" alt="club world cup" class="background-display">
           <p class="background-name">
             גביע העולם למועדונים
           </p>
@@ -94,10 +96,21 @@
     </div>
   </div>
 
+  <div class="change-player-menu js-change-player-menu">
+    <button class="exit-button js-exit-button">
+      X
+    </button>
+    <div class="player-option" data-player-id="1">
+      <img src="images/chose.png" class="player-preview-image">
+      <p class="player-option-name">סקיבידי</p>
+    </div>
+  </div>
+
   <button class="screenshot-button js-screenshot-button">צלם</button>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <script src="scripts/changePlayer.js" type="module"></script>
   <script src="scripts/changeBackground.js"></script>
   <script>
     const screenshotButton = document.querySelector('.js-screenshot-button');

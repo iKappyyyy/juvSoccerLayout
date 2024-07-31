@@ -3,6 +3,6 @@ const imageBackground = document.querySelector('.js-background-image');
 
 backgrounds.forEach(background => {
   background.addEventListener('click', () => {
-    imageBackground.src = `../images/${background.dataset.image}.webp`;
+    imageBackground.src = `../images/backgrounds/${background.dataset.image}.webp`;
   });
 });
