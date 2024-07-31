@@ -12,31 +12,43 @@ const playerInfos = {
     playerImage: 'chose'
   },
   '4': {
-    playerName: 'פיונה',
+    playerName: 'פטריק סטאר',
     playerImage: 'chose'
   },
   '5': {
-    playerName: 'סקיבידי',
+    playerName: 'מגנוק',
     playerImage: 'chose'
   },
   '6': {
-    playerName: 'טוילט',
+    playerName: 'טום טרגר',
     playerImage: 'chose'
   },
   '7': {
-    playerName: 'רועי בן אמיגו',
+    playerName: 'אור פז',
     playerImage: 'chose'
   },
   '8': {
-    playerName: 'כל עוד בלבב',
+    playerName: 'גרי המבורגרי',
     playerImage: 'chose'
   },
   '9': {
-    playerName: 'פנימה נפש יהודית',
+    playerName: 'אסף לוץ',
     playerImage: 'chose'
   },
   '10': {
-    playerName: 'לוווול אני דג',
+    playerName: 'אבי רון',
+    playerImage: 'chose'
+  },
+  '11': {
+    playerName: 'יערון',
+    playerImage: 'chose'
+  },
+  '12': {
+    playerName: 'יצחקי מצחקי',
+    playerImage: 'chose'
+  },
+  '13': {
+    playerName: 'פיתר פרכר',
     playerImage: 'chose'
   }
 }
