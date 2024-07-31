@@ -62,7 +62,7 @@
 }
 
 #player1 .player-name {
-  bottom: -43px;
+  bottom: -33px;
 }
 
 .player-name {
@@ -81,7 +81,7 @@
     0.05em -0.05em black,
     0.05em 0.05em black;
   position: absolute;
-  bottom: 0;
+  bottom: 9px;
 }
 
 @media ((min-width: 450.1px) and (max-width: 600px)) or ((max-height: 920px)) {

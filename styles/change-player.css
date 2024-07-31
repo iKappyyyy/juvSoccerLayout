@@ -105,6 +105,24 @@
   }
 }
 
+@media ((min-width: 450.1px) and (max-width: 600px)) or ((max-height: 920px)) {
+  .change-player-menu {
+    width: 400px;
+  }
+}
+
+@media (min-width: 300.1px) and (max-width: 450px) {
+  .change-player-menu {
+    width: 250px;
+  }
+}
+
+@media (max-width: 300px) {
+  .change-player-menu {
+    width: 200px;
+  }
+}
+
 @keyframes pop {
   0% {
     scale: 0.7;
