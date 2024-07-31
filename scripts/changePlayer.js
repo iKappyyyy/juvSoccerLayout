@@ -4,27 +4,28 @@ import loadLayout from "./loadPhotoLayout.js";
 const players = document.querySelectorAll('.js-player');
 const changePlayerMenu = document.querySelector('.js-change-player-menu');
 
-let changePlayerMenuHtml = `<button class="exit-button js-exit-button">X</button>`;
-for (let id = 1; id <= Object.keys(playerInfos).length; id++) {
-  changePlayerMenuHtml += `
-    <div class="player-option js-player-option" data-player-id="${id}">
-      <img src="images/${playerInfos[String(id)].playerImage}.png" class="player-preview-image">
-      <p class="player-option-name">${playerInfos[String(id)].playerName}</p>
-    </div>
-  `;
+function createChangePlayerMenuContent() {
+  let changePlayerMenuHtml = `<button class="exit-button js-exit-button">X</button>`;
+  for (let id = 1; id <= Object.keys(playerInfos).length; id++) {
+    changePlayerMenuHtml += `
+      <div class="player-option js-player-option" data-player-id="${id}">
+        <img src="images/${playerInfos[String(id)].playerImage}.png" class="player-preview-image">
+        <p class="player-option-name">${playerInfos[String(id)].playerName}</p>
+      </div>
+    `;
+  }
+  changePlayerMenu.innerHTML = changePlayerMenuHtml;
+
+  const exitButton = document.querySelector('.js-change-player-menu .js-exit-button');
+
+  exitButton.addEventListener('click', () => {
+    changePlayerMenu.classList.remove('active');
+  });
 }
-changePlayerMenu.innerHTML = changePlayerMenuHtml;
 
-const exitButton = document.querySelector('.js-change-player-menu .js-exit-button');
+createChangePlayerMenuContent();
 
-exitButton.addEventListener('click', () => {
-  changePlayerMenu.classList.remove('active');
-});
-
-const playerOptions = document.querySelectorAll('.js-player-option');
-playerOptions.forEach(playerOption => {
-
-});
+let playerOptions = document.querySelectorAll('.js-player-option');
 players.forEach(player => {
   player.addEventListener('click', () => {
     changePlayerMenu.classList.add('active');
@@ -37,6 +38,9 @@ players.forEach(player => {
           <p class="player-name">${playerInfo.playerName}</p>
         `;
         changePlayerMenu.classList.remove('active');
+        // remove event listeners
+        createChangePlayerMenuContent();
+        playerOptions = document.querySelectorAll('.js-player-option');
       });
     });
   });
