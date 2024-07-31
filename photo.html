@@ -4,68 +4,115 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/general.css">
-  <link rel="stylesheet" href="styles/background-image.css">
+  <link rel="stylesheet" href="styles/photo.css">
+  <link rel="stylesheet" href="styles/screenshot-button.css">
+  <link rel="stylesheet" href="styles/change-background.css">
   <title>PHOTO PAGE</title>
 </head>
 <body>
   <div class="image-content">
-    <img class="background-image" src="images/background.webp">
+    <img class="background-image js-background-image" src="images/championsLeague.webp">
     <div class="player js-player" id="player1">
-      <img src="images/head.png" class="head">
+      <img src="images/nochoice.webp" class="head">
       <p class="player-name">ניסים מזרחי אדרי בן זכאי</p>
     </div>
     <div class="player js-player" id="player2">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">ניסים מזרחי</p>
     </div>
     <div class="player js-player" id="player3">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">ניסים מזרחי</p>
     </div>
     <div class="player js-player" id="player4">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">ניסים מזרחי</p>
     </div>
     <div class="player js-player" id="player5">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">ניסים מזרחי</p>
     </div>
     <div class="player js-player" id="player6">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">אדרי בן זכאי</p>
     </div>
     <div class="player js-player" id="player7">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">אדרי בן זכאי</p>
     </div>
     <div class="player js-player" id="player8">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">אדרי בן זכאי</p>
     </div>
     <div class="player js-player" id="player9">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">אדרי בן זכאי</p>
     </div>
     <div class="player js-player" id="player10">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">אדרי בן זכאי</p>
     </div>
     <div class="player js-player" id="player11">
-      <img src="images/head.png" class="head">
-      <p class="player-name">JOHN PIERRE</p>
+      <img src="images/nochoice.webp" class="head">
+      <p class="player-name">אדרי בן זכאי</p>
+    </div>
+
+    <div class="background-change-container">
+      <button class="change-background js-change-background">שנה רקע</button>
+      <div class="background-choices">
+        <div class="background js-background" data-image="championsLeague">
+          <img src="images/championsLeague.webp" alt="champions league" class="background-display">
+          <p class="background-name">
+            ליגת האלופות
+          </p>
+        </div>
+        <div class="background js-background" data-image="serieA">
+          <img src="images/serieA.webp" alt="serie a" class="background-display">
+          <p class="background-name">
+            סרייה א
+          </p>
+        </div>
+        <div class="background js-background" data-image="superCup">
+          <img src="images/superCup.webp" alt="super cup" class="background-display">
+          <p class="background-name">
+            סופר קופה
+          </p>
+        </div>
+        <div class="background js-background" data-image="coppaItalia">
+          <img src="images/coppaItalia.webp" alt="coppa italia" class="background-display">
+          <p class="background-name">
+            הגביע האיטלקי
+          </p>
+        </div>
+        <div class="background js-background" data-image="clubWorldCup">
+          <img src="images/clubWorldCup.webp" alt="club world cup" class="background-display">
+          <p class="background-name">
+            גביע העולם למועדונים
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <button class="js-screenshot-button">screenshot</button>
+  <button class="screenshot-button js-screenshot-button">צלם</button>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="scripts/changeBackground.js"></script>
   <script>
     const screenshotButton = document.querySelector('.js-screenshot-button');
     const image = document.querySelector('.image-content');
 
     screenshotButton.addEventListener('click', () => {
-      html2canvas(image, {scale: 2}).then(canvas => {
-        canvas.toBlob(blob => {
+      html2canvas(image, {scale: 4}).then(canvas => {
+        const resizedImage = document.createElement('canvas');
+        resizedImage.width = 750;
+        resizedImage.height = 1000;
+        const ctx = resizedImage.getContext('2d');
+
+        ctx.drawImage(canvas, 0, 0, 750, 1000);
+
+        resizedImage.toBlob(blob => {
           try {
             navigator.clipboard.write([
             new ClipboardItem({'image/png': blob})
@@ -78,7 +125,9 @@
         });
       });
     });
+
   </script>
   <script src="scripts/loadPhotoLayout.js" type="module"></script>
+  
 </body>
 </html>

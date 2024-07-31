@@ -1,6 +1,6 @@
 import photoPositions from "./data/photoPositions.js";
 
-const rowLength = 7;
+const rowLength = 11;
 const layout = getLayout();
 const players = document.querySelectorAll('.js-player');
 const photoPosition = photoPositions[layout];
